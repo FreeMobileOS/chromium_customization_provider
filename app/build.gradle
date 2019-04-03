@@ -7,7 +7,7 @@ android {
     defaultConfig {
         applicationId "org.chromium.example.partnercustomizations"
         minSdkVersion 14
-        targetSdkVersion 14
+        targetSdkVersion 28
     }
 
     buildTypes {
