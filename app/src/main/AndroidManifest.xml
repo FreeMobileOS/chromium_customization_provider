@@ -9,10 +9,12 @@
     <application>
         <!-- Provider for partner bookmarks. android:authorities must not be changed. -->
         <provider android:name="PartnerBookmarksProviderExample"
+            android:exported="true"
             android:authorities="com.android.partnerbookmarks" />
 
         <!-- Provider for other partner customizations. android:authorities must not be changed. -->
         <provider android:name="PartnerBrowserCustomizationsProviderExample"
+            android:exported="true"
             android:authorities="com.android.partnerbrowsercustomizations" />
     </application>
 </manifest>
